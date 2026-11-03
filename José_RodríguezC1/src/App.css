@@ -1,0 +1,237 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #eef1f4;
+  color: #333;
+}
+
+.page {
+  width: 90%;
+  max-width: 650px;
+  min-height: 450px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.page h1 {
+  color: #294c6b;
+  font-size: 27px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.page h2 {
+  color: #45677e;
+  margin-bottom: 18px;
+}
+
+
+.you {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  margin: 10px auto 20px;
+}
+
+
+.page .MuiTextField-root {
+  width: 80%;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+.page .MuiInputLabel-root {
+  color: #666;
+}
+
+.page .MuiInputLabel-root.Mui-focused {
+  color: #315b7d;
+}
+
+.page .MuiFormControl-root {
+  margin: 12px auto;
+}
+
+.page .MuiFormLabel-root {
+  color: #315b7d;
+}
+
+.page .MuiRadio-root.Mui-checked {
+  color: #315b7d;
+}
+
+.page .MuiFormControlLabel-label {
+  color: #444;
+}
+
+.page button {
+  background-color: #315b7d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.page button:hover {
+  background-color: #24445f;
+}
+
+
+.register-page {
+  max-width: 600px;
+  padding: 30px;
+}
+
+.register-subtitle {
+  color: #777;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.register-form {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.register-form .MuiTextField-root {
+  width: 100%;
+  margin: 9px 0;
+}
+
+.register-form .MuiOutlinedInput-root {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.register-form .MuiOutlinedInput-notchedOutline {
+  border-color: #ccc;
+}
+
+.register-form .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #777;
+}
+
+.register-form .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #315b7d;
+}
+
+.register-form .MuiInputLabel-root {
+  color: #666;
+}
+
+.register-form .MuiInputBase-input {
+  color: #333;
+}
+
+
+.genero {
+  text-align: left;
+  margin: 18px 0;
+  padding: 10px;
+}
+
+.genero .MuiFormLabel-root {
+  color: #315b7d;
+}
+
+.genero .MuiFormControlLabel-label {
+  color: #444;
+}
+
+
+.register-page .MuiFormControl-root {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.register-page .MuiButton-root {
+  margin: 10px 0;
+  color: #315b7d;
+  border-color: #315b7d;
+  font-size: 13px;
+}
+
+.register-page .MuiFormControlLabel-label {
+  font-size: 13px;
+  color: #444;
+}
+
+.register-buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.register-buttons button {
+  background-color: #315b7d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 7px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.register-buttons button:hover {
+  background-color: #24445f;
+}
+
+/* Home */
+.foto-perfil {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+  margin: 15px auto;
+  display: block;
+}
+
+.home-page p {
+  font-size: 15px;
+  margin: 12px 0;
+}
+
+
+@media (max-width: 600px) {
+  .page {
+    width: 92%;
+    margin: 20px auto;
+    padding: 22px 15px;
+  }
+
+  .page h1 {
+    font-size: 24px;
+  }
+
+  .page .MuiTextField-root {
+    width: 95%;
+  }
+
+  .you {
+    width: 120px;
+    height: 120px;
+  }
+
+  .register-buttons button {
+    width: 90%;
+    margin: 6px auto;
+  }
+}
