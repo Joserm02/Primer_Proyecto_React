@@ -176,7 +176,7 @@ function RegisterPage({ cambiarValorBotonLogin, registrarUsuario }) {
           variant="outlined"
           fullWidth
         >
-
+          CARGAR LA FOTO DE PERFIL
 
           <input
             type="file"
