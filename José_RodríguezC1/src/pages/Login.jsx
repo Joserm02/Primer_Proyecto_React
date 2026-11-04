@@ -25,7 +25,7 @@ function Login({ cambiarValorBotonRegistro, buscarUsuario }) {
 return (
   <main className="page login-page">
 
-    <h1>My App</h1>
+    <h1>JoseRodriguezC1</h1>
 
     <img className="you" src="src/assets/you.png" />
 

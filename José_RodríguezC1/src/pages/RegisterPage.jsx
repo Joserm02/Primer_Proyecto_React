@@ -30,7 +30,6 @@ function RegisterPage({ cambiarValorBotonLogin, registrarUsuario }) {
 
   function nombreGuardado1() {
 
-    // Comprobar que todos los campos estén completos
     if (
       !nombre ||
       !contraseña ||
@@ -45,13 +44,13 @@ function RegisterPage({ cambiarValorBotonLogin, registrarUsuario }) {
       return;
     }
 
-    // Comprobar que las contraseñas coincidan
+
     if (contraseña !== contraseña1) {
       alert("Las contraseñas no coinciden");
       return;
     }
 
-    // Crear objeto con los datos del usuario
+  
     let person = {
       nombre: nombre,
       contraseña: contraseña,
@@ -114,7 +113,7 @@ function RegisterPage({ cambiarValorBotonLogin, registrarUsuario }) {
           onChange={(e) => setEdad(e.target.value)}
         />
 
-        {/* Género */}
+      
         <div className="genero">
 
           <FormControl>
@@ -148,7 +147,6 @@ function RegisterPage({ cambiarValorBotonLogin, registrarUsuario }) {
 
         </div>
 
-        {/* Provincia */}
         <FormControl fullWidth>
           <InputLabel id="provincia-label">
             Provincia de Andalucía
@@ -171,13 +169,13 @@ function RegisterPage({ cambiarValorBotonLogin, registrarUsuario }) {
           </Select>
         </FormControl>
 
-        {/* Foto de perfil */}
+        
         <Button
           component="label"
           variant="outlined"
           fullWidth
         >
-          CARGAR FOTO DE PERFIL
+         
 
           <input
             type="file"
@@ -191,7 +189,7 @@ function RegisterPage({ cambiarValorBotonLogin, registrarUsuario }) {
           <p>Foto seleccionada: {fotoPerfil.name}</p>
         )}
 
-        {/* Términos y condiciones */}
+    
         <FormControlLabel
           control={
             <Checkbox
@@ -204,7 +202,7 @@ function RegisterPage({ cambiarValorBotonLogin, registrarUsuario }) {
 
       </section>
 
-      {/* Botones */}
+    
       <div className="register-buttons">
 
         <BotonGeneral
